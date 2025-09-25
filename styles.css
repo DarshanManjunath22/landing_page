@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*section-1*/
+
+
+header{
+  background-color: #1f2937;
+   padding: 1em 15em;
+}
+
+.hero_main{
+  font-weight: 900;
+  color: #f9faf8;
+  font-size: 48px;
+}
+.hero_sec, .links a{
+ color: #e7e5eb;
+ font-size: 18px;
+}
+
+.logo{
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+button{
+  background-color: #3882f6;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  color: #e7e5eb;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 600;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.links{
+  display: inline;
+}
+a{
+  text-decoration: none;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  
+}
+.hero{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+left{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.head div{
+  flex-direction: row;
+}
+.image{
+  display: flex;
+  height: 250px;
+  width: 550px;
+  background-color: #676965;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+/* section-2  */
+
+.sec2{
+  text-align: center;
+  padding: 50px 0px;
+  margin-bottom: 50px;
+}
+
+.random{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 50px;
+ 
+}
+
+.box-con{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+
+.info-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 160px;
+  max-width: 180px;
+}
+.box{
+  height: 150px;
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  margin: 0 auto 10px auto;
+}
+
+
+/*  section-3  */
+
+.sec3{
+  background-color: #e5e7eb;
+  padding: 150px 350px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sec31{
+    font-size: 36px;
+    color: #1f2937;
+     font-style: italic;
+
+}
+
+.sec32{
+    font-size: 36px;
+    color: #1f2937;
+     font-style: italic;
+     text-align: end;
+
+}
+
+
+/*  section-4  */
+.sec4{
+  margin: 120px 250px;
+}
+.blucon{
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 150px;
+  border-radius: 10px;
+}
+.lef{
+  color: white;
+}
+.rig button{
+  border: 2px solid white;
+}
+footer{
+  background-color: #1f2937;
+  text-align: center;
+}
+footer div{
+  padding: 50px 100px;
+  color: white;
+  font-size: 20px;
+}
